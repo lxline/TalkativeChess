@@ -1,17 +1,25 @@
 # Usage
 Download the MyChess and libraries.
+Recommended python version is 3.12.3.
 ```bash
-git clone https://github.com/mm12432/MyChess.git
-pip install -r requirements.txt
+git clone https://github.com/lxline/TalkativeChess
 ```
+
+## Install
+
+### Install from source
+```bash
+pip install -e .
+```
+
+## Play
 
 Run MyChess with UI(recommended)
 ```bash
-python -m MyChess.Chess_UI.win_game
+python -m frontend.win_game
 ```
-
 
 Run MyChess with terminal
 ```bash
-python -m MyChess.Chess_UI.cli_gmae
+python -m frontend.cli_gmae
 ```

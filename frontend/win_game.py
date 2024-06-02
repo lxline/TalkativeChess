@@ -3,9 +3,9 @@ import sys
 import pygame
 import random
 import os.path
-from MyChess.Chess_Core import Chessboard
-from MyChess.Chess_Core import Point
-from MyChess.Chess_Core import Chessman
+from chess import Chessboard
+from chess import Point
+from chess import Chessman
 from pygame.locals import *
 
 main_dir = os.path.split(os.path.abspath(__file__))[0]
